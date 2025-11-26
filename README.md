@@ -1,16 +1,66 @@
-# myapp
+🎵 Simple Local Music Player
 
-A new Flutter project.
+A lightweight Flutter app that allows users to pick an MP3 file, view metadata, and play/pause audio using just_audio. Works on Android and Windows, with limited support on Web.
 
-## Getting Started
+🚀 Features
 
-This project is a starting point for a Flutter application.
+📁 Pick MP3 files from local storage
 
-A few resources to get you started if this is your first Flutter project:
+🎼 Read metadata (Title, Artist, Album Art)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+▶️ Play / Pause audio
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+⏱ Track duration & position
+
+🎚 Seek audio using a slider
+
+📱 Simple and clean UI
+
+🛠 Technologies Used
+
+Flutter
+
+just_audio – for audio playback
+
+file_picker – to pick local files
+
+flutter_media_metadata – for metadata (Android/Windows)
+
+📸 Screenshots
+
+(Add your app screenshots here)
+
+assets/screenshots/screen1.png
+assets/screenshots/screen2.png
+
+📦 Installation
+1. Clone the repository
+git clone https://github.com/Rachana16-2004/Simple-Local-Music-Player.git
+cd Simple-Local-Music-Player
+
+2. Install dependencies
+flutter pub get
+
+3. Run the app
+flutter run
+
+📂 Project Structure
+lib/
+ └── features/
+      └── audio_player/
+           ├── audio_provider.dart
+           └── audio_player_screen.dart
+ └── main.dart
+
+⚠️ Notes
+
+Metadata reading works only on Android and Windows.
+
+On Web, metadata may return empty values.
+
+Use MP3 files only for best performance.
+
+🤝 Contributing
+
+Pull requests are welcome!
+If you have ideas, improvements, or bug fixes, feel free to contribute.
